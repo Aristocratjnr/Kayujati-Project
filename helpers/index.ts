@@ -1,4 +1,4 @@
-// Axios 
+// impot Axios 
 import axios from 'axios'
 import { supabase } from './supabase';
 import { ref, listAll, getDownloadURL } from "firebase/storage";
