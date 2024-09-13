@@ -34,9 +34,8 @@ const nextConfig = {
   },
 };
 
-module.exports = {
-  experimental: {
-    missingSuspenseWithCSRBailout: false,
-  },
-}
+export const experimental = {
+  missingSuspenseWithCSRBailout: false,
+};
+
 export default nextConfig;
